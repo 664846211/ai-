@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI修图工具包</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"Microsoft YaHei",sans-serif; background:#0f1b2d; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#e8eef5; }
+  .brand { text-align:center; margin-bottom:36px; }
+  .brand h1 { font-size:32px; font-weight:900; letter-spacing:2px; }
+  .brand p { margin-top:10px; color:#8fa3bd; font-size:14px; }
+  .badge { display:inline-block; margin-top:12px; padding:4px 14px; border-radius:999px; background:rgba(126,207,179,.12); color:#7ECFB3; font-size:12px; border:1px solid rgba(126,207,179,.35); }
+  .cards { display:flex; gap:28px; flex-wrap:wrap; justify-content:center; }
+  a.card { display:block; width:320px; background:#1B3A5C; border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:32px 28px; text-decoration:none; color:#e8eef5; transition:transform .2s, box-shadow .2s; }
+  a.card:hover { transform:translateY(-4px); box-shadow:0 12px 32px rgba(0,0,0,.4); border-color:#F2945C; }
+  .card svg { width:44px; height:44px; margin-bottom:16px; }
+  .card h2 { font-size:20px; font-weight:800; margin-bottom:10px; }
+  .card p { font-size:13px; color:#b8c6d9; line-height:1.7; }
+  .card .go { margin-top:16px; font-size:13px; color:#F2945C; font-weight:700; }
+  footer { margin-top:44px; font-size:12px; color:#5c6f88; }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <h1>AI修图工具包</h1>
+    <p>抠图 + 证件照，模型全部内置，断网可用，U盘随拷随用</p>
+    <span class="badge">全部计算在本机浏览器完成，照片不上传任何服务器</span>
+  </div>
+  <div class="cards">
+    <a class="card" href="抠图工具.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#F2945C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+      <h2>本地抠图工具</h2>
+      <p>一键自动抠图（三档模型），点选/拖框精细抠图，残留清理、主体补全、批量导出打包。</p>
+      <div class="go">打开工具 →</div>
+    </a>
+    <a class="card" href="证件照工具.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#7ECFB3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h4M15 12h4M5 18c0-2 2-3 4-3s4 1 4 3"/></svg>
+      <h2>AI 证件照工具</h2>
+      <p>AI 抠图换底色、人脸自动居中、几十种证件照规格、高清修复、相纸排版直接打印。</p>
+      <div class="go">打开工具 →</div>
+    </a>
+  </div>
+  <footer>AI修图工具包</footer>
+</body>
+</html>
